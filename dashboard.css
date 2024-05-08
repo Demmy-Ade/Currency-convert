@@ -87,28 +87,39 @@ button{
     top: 20px;
     right: 20px;
   }
-  /* Your existing CSS */
-
-/* Media Query for screens with maximum width of 410px */
 @media screen and (max-width: 415px) {
   .container {
-      width: 90%; /* Adjusted width for smaller screens */
-      padding: 10px; /* Adjusted padding for smaller screens */
+      width: 90%; 
+      padding: 10px; 
   }
 
-  h1 {
-      font-size: 30px; /* Reduced font size for smaller screens */
+  h1  {
+      font-size: 15px; 
+      padding: 10px;
+    
   }
 
   select, input {
-      width: 100%; /* Make form elements full width on smaller screens */
+      width: 100%; 
   }
 
   button {
       width: 100%; 
-      margin-bottom: 10px; 
+      margin-top:10px;
+      margin-bottom: 30px; 
   }
+p {
+    font-size: 12px;
+}
+.col input{
+    width: 80%;
+    
+}
 
+.col select{
+    width: 80%;
+    
+}
   .sidebar {
       width: 250px; 
       padding-top: 20px; 
@@ -121,7 +132,7 @@ button{
   }
 
   #checkRateButton {
-      display: none; 
+      display: block; 
   }
 }
 
