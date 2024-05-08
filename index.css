@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e08712;
+}
+
+.container {
+  width: 400px;
+  margin: 100px auto;
+  background-color: gold;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.container #signup {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.container #signup h2 {
+  margin-bottom: 20px;
+  color: #007bff;
+}
+.container #signup input[type=text], .container #signup input[type=tel], .container #signup input[type=email], .container #signup input[type=password] {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.container #signup button {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+.container #signup button:hover {
+  background-color: #0056b3;
+}
+.container #login-link {
+  text-align: center;
+}
+.container #login-link p {
+  margin: 0;
+  color: #333;
+}
+.container #login-link a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+.container #login-link a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=index.css.map */
+@media  (max-width:410px)  
+ { .container
+     {
+      width: 300px;
+     }
+  }

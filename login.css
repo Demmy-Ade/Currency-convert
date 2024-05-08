@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #300808;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 400px; /* Set max-width for better readability on larger screens */
+    margin: 100px auto; /* Center the container vertically and horizontally */
+    background-color: #ec8359;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #login {
+    text-align: center; /* Center the contents of the login section */
+  }
+  
+  #login h2 {
+    margin-bottom: 20px;
+    color: #f2f8f8;
+  }
+  
+  #login input[type="email"],
+  #login input[type="password"],
+  #login button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #signup-link {
+    text-align: center;
+  }
+  
+  #signup-link p {
+    margin: 0;
+    color: #333;
+  }
+  
+  #signup-link a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  #signup-link a:hover {
+    text-decoration: underline;
+  }
+  
+@media  (max-width:410px)  
+{ .container
+    {
+     width: 300px;
+    }
+ }
