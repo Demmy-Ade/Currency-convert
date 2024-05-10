@@ -87,53 +87,61 @@ button{
     top: 20px;
     right: 20px;
   }
+
 @media screen and (max-width: 415px) {
-  .container {
-      width: 90%; 
-      padding: 10px; 
+    .container {
+        width: 90%; 
+        padding: 10px; 
+    }
+  
+    h1  {
+        font-size: 15px; 
+        padding: 10px;
+      
+    }
+  
+    select, input {
+        width: 100%; 
+    }
+  
+    button {
+        width: 100%; 
+        margin-top:10px;
+        margin-bottom: 30px; 
+    }
+  
+    p {
+      font-size: 12px;
+    }
+  
+    .col input {
+      width: 100%; /* Adjusted to full width */
+    }
+  
+    .col select {
+      width: 100%; /* Adjusted to full width */
+    }
+  
+    .sidebar {
+        width: 100%; /* Adjusted to full width */
+        padding-top: 20px; 
+    }
+  
+    .sidebar button, #closeSidebar {
+        top: 10px; 
+        right: 10px; 
+        font-size: 24px; 
+    }
+  
+    #checkRateButton {
+        display: block; 
+    }
+  
+    .conversion-list {
+        display: block; 
+        padding: 10px;
+    }
   }
-
-  h1  {
-      font-size: 15px; 
-      padding: 10px;
-    
-  }
-
-  select, input {
-      width: 100%; 
-  }
-
-  button {
-      width: 100%; 
-      margin-top:10px;
-      margin-bottom: 30px; 
-  }
-p {
-    font-size: 12px;
-}
-.col input{
-    width: 80%;
-    
-}
-
-.col select{
-    width: 80%;
-    
-}
-  .sidebar {
-      width: 250px; 
-      padding-top: 20px; 
-  }
-
-  .sidebar button, #closeSidebar {
-      top: 10px; 
-      right: 10px; 
-      font-size: 24px; 
-  }
-
-  #checkRateButton {
-      display: block; 
-  }
-}
+  
 
   
